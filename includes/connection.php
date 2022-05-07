@@ -1,3 +1,4 @@
 <?php
-$con = mysqli_connect("127.0.0.1:56212","azure","6#vWHD_$","social_network");
+$port = $_SERVER['WEBSITE_MYSQL_PORT']
+$con = mysqli_connect("127.0.0.1:$port","azure","6#vWHD_$","social_network");
 ?>
